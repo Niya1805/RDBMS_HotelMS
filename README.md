@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Grand Aurelia — Hotel Reservation System (RDBMS Project)
 
 A complete full-stack **Hotel Reservation System** built for an RDBMS Lab & Theory evaluation. The system is designed directly around the original Chen-style Entity-Relationship diagram in [`Diagram1.dia`](./Diagram1.dia), backed by **MySQL 8.0**, a **Python Flask REST API**, and a responsive **React + Vite + Tailwind CSS** hospitality web application.
@@ -227,3 +228,7 @@ Detailed explanations and Viva Q&A are provided in [`docs/rdbms_concepts.md`](./
    - **Simulated Payment Flow**: Designed for academic demonstration; does not integrate with external payment gateways (e.g., Razorpay/Stripe) and explicitly rejects real credit card numbers.
    - **Authentication Scope**: Preserves the original `User (U-ID, Name, Phone, Email)` schema without adding password hashes or JWT tables; guest sessions identify by verified email/phone, and administrative routes use the `X-Admin-Passcode` header.
    - **1-to-Many Booking Model**: Each `Bookings` record books one `S-ID` (`Room` or `Add-On`), preserving the exact 9-table structure of `Diagram1.dia` without introducing extra junction tables.
+=======
+# RDBMS_HotelMS
+RDBMS project 3rd Sem
+>>>>>>> fe83208d0d733b1f697a3120839b853e81d2a312
